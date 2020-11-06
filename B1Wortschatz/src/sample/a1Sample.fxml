@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #7A82AB #7A82AB;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.A1Controller">
+    <children>
+        <VBox layoutX="49.0" layoutY="96.0" prefHeight="331.0" prefWidth="503.0">
+            <children>
+                <Label fx:id="word" alignment="CENTER" prefHeight="48.0" prefWidth="506.0" style="-fx-background-color: #596475;" text="das Wort" textFill="WHITE">
+                    <font>
+                        <Font name="Arial Bold" size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="examples" alignment="CENTER" prefHeight="229.0" prefWidth="507.0" style="-fx-background-color: #BC9EC1;" text="Beispiele" textFill="#fcf9f9">
+                    <font>
+                        <Font name="Arial Bold" size="19.0" />
+                    </font>
+                    <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                    </padding>
+                </Label>
+                <Label fx:id="translation" alignment="CENTER" opacity="0.69" prefHeight="52.0" prefWidth="509.0" style="-fx-background-color: #E3BAC6;">
+                    <font>
+                        <Font name="Arial" size="19.0" />
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+        <Button fx:id="showTranslationButton" alignment="CENTER" contentDisplay="CENTER" layoutX="239.0" layoutY="437.0" mnemonicParsing="false" opacity="0.79" prefHeight="27.0" prefWidth="122.0" style="-fx-background-color: #424B54;" text="Show the Answer" textFill="WHITE" />
+        <Button fx:id="nextButton" alignment="CENTER" contentDisplay="CENTER" layoutX="265.0" layoutY="476.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="72.0" style="-fx-background-color: #424B54;" text="Next" textFill="WHITE" />
+        <Pane prefHeight="65.0" prefWidth="600.0" style="-fx-background-color: #596475 #596475;">
+            <children>
+                <Button fx:id="add" layoutX="536.0" layoutY="17.0" mnemonicParsing="false" onAction="#goToCreateCard" prefHeight="32.0" prefWidth="46.0" style="-fx-background-color: #424B54;" text="+" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="16.0" />
+                    </font>
+                </Button>
+                <Button fx:id="goBackToMenuButton" layoutX="14.0" layoutY="17.0" mnemonicParsing="false" onAction="#goBack" style="-fx-background-color: #424B54;" text="Menu" textFill="WHITE">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Button>
+            </children>
+        </Pane>
+      <Pane layoutY="569.0" prefHeight="34.0" prefWidth="600.0" style="-fx-background-color: #596475;" />
+    </children>
+</AnchorPane>

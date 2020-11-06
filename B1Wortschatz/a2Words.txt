@@ -1,0 +1,3 @@
+<aufräumen, räumt auf, hat aufgeräumt>{Die Kinder müssen ihr Zimmer aufräumen.}[убираться]
+<aufstehen, steht auf, ist aufgestanden>{Ich stehe jeden Morgen um sieben Uhr auf.}[вставать]
+<akzeptieren, akzeptiert, akzeptierte, hat akzeptiert>{Ich kann diese Bedingungen nicht akzeptieren.}[Признать]

@@ -1,0 +1,6 @@
+<allein>{Er kommt allein.}[Одинокий]
+<anklicken>{Da musst du dieses Wort anklicken.}[кликнуть]
+<anrufen>{Kann man Sie anrufen?Peter ruft kurz seine Freundin an.}[звонить]
+<der Anruf, -e>{Sie bekommt viele Anrufe auf ihrem Handy.}[звонок]
+<antworten>{Er antwortet nicht.}[отвечать]
+<ankreuzen>{Auf dem Formular müssen Sie an mehreren Stellen etwas ankreuzen.}[отметить крестиком]
