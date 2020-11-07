@@ -5,7 +5,7 @@ JavaFX application for learning German vocabulary by context for learners whose 
 
 ![alt text](https://sun9-16.userapi.com/impg/ybCZ562ETn1geSW2rSY5aN_ucR5_iK15_gvjoA/GmXkmbebrQI.jpg?size=2560x1428&quality=96&proxy=1&sign=92844e658c9114fdba88539c986164b0)
 
-Here in this scene text field are animatable. 
+These text fields are animatable. 
 ![alt text](https://sun9-59.userapi.com/impg/2x827GKvc_5pMJsVebrUsQTeOwprwm3HLeRRmw/T0F7PZj8txI.jpg?size=2560x1377&quality=96&proxy=1&sign=5bd305ca099704651b1afaf879187b60)
 
 <hr>
